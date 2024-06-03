@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.View.SobreView"
+             Title="Sobre">
+    
+    <VerticalStackLayout
+         Spacing="15"
+         Padding="10,30"
+         >
+        
+        <Label 
+            Text="	Lorem ipsum viverra venenatis urna dapibus diam fringilla, mauris cras pharetra fusce posuere cras orci elementum, consequat libero mollis turpis proin lobortis. integer maecenas commodo tortor duis mi ligula varius habitasse at, fermentum mauris phasellus proin congue accumsan tristique conubia proin, ac suspendisse pellentesque curae laoreet tortor nunc at. suscipit accumsan eleifend arcu purus ante velit rutrum sem arcu, sed hac sed donec odio leo sodales ipsum porta suspendisse, per aenean potenti laoreet potenti hendrerit nibh dui. arcu curabitur metus elementum a primis viverra primis placerat, aenean commodo hac aliquam placerat orci velit, ipsum nec sapien tellus volutpat egestas curabitur. "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <HorizontalStackLayout>
+            <Label
+                Text="Feito Por: &#10; &#10; Github.com/Gio-Aguiar &#10; &#10; Github.com/MatheusL03"
+                Margin="0,50,0,0"/>
+        </HorizontalStackLayout>
+
+
+        <HorizontalStackLayout Margin="0,200,0,0" HorizontalOptions="Center">
+            <Button
+                Text="Pedra Papel Tesoura"
+                x:Name="BtnHome"
+                BackgroundColor="DarkMagenta"
+                Padding="10"
+                Margin="20"/>
+
+            <Button
+                Text="Sobre"
+                x:Name="BtnSobre"
+                BackgroundColor="Black"
+                Padding="20,10,20,10"
+                Margin="20"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
